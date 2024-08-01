@@ -10,8 +10,8 @@ const Pricing = () => {
           efforts.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[25px] w-[335px] md:w-[1170px] mx-auto mt-[72px] ">
-        <div className="w-[321px] h-[452px] bg-[#1E2029] px-[40px] pt-[50px] pb-[40px] rounded-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[25px] w-[335px] md:w-[1170px] mx-auto mt-[72px]">
+        <div className="w-[321px] h-[452px] mx-auto bg-[#1E2029] px-[40px] pt-[50px] pb-[40px] rounded-2xl">
           <div className="mb-[42px]">
             <p className="text-[20px] font-medium">Free</p>
             <h2 className="text-[34px] font-bold">
@@ -41,7 +41,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="w-[321px] h-[452px] bg-[#1E2029] px-[40px] pt-[50px] pb-10 rounded-2xl">
+        <div className="w-[321px] h-[452px] mx-auto bg-[#1E2029] px-[40px] pt-[50px] pb-10 rounded-2xl">
           <div className="mb-[42px]">
             <p className="text-[20px] font-medium">Basic</p>
             <h2 className="text-[34px] font-bold">
@@ -71,7 +71,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="w-[321px] h-[452px] bg-[#1E2029] px-[40px] pt-[50px] pb-10 rounded-2xl">
+        <div className="w-[321px] h-[452px] mx-auto bg-[#1E2029] px-[40px] pt-[50px] pb-10 rounded-2xl">
           <div className="mb-[42px]">
             <p className="text-[20px] font-medium">Premium</p>
             <h2 className="text-[34px] font-bold">
