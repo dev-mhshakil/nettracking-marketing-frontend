@@ -22,8 +22,8 @@ const FAQ = () => {
                   What is Nettracking
                 </h2>
                 <p className="text-[16px] text-[#696B76]">
-                  "NetTracking" is a very powerful Web 2.0 site search engine
-                  allows you to find
+                  &quot;NetTracking&quot; is a very powerful Web 2.0 site search
+                  engine allows you to find
                 </p>
               </div>
             </div>

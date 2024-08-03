@@ -2,10 +2,12 @@ import { Check } from "lucide-react";
 
 const Pricing = () => {
   return (
-    <div className="w-[335px] md:w-[1440px] mx-auto">
+    <div className="w-[335px] md:w-[1440px] mx-auto mt-[80px]">
       <div className="">
-        <h1 className="text-[42px] text-center font-bold">Our pricing plan</h1>
-        <p className="text-[16px] text-[#696B76] text-center">
+        <h1 className="text-[26px] md:text-[42px] text-center font-bold">
+          Our pricing plan
+        </h1>
+        <p className="text-[12px] md:text-[16px] text-[#696B76] text-center mt-3">
           online sales tracker that tracks the success of your online sales
           efforts.
         </p>

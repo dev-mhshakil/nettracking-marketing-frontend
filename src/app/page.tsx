@@ -1,6 +1,7 @@
 import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
 import Header from "@/components/Header";
+import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
 import WhatWeDo from "@/components/WhatWeDo";
 
@@ -10,7 +11,7 @@ export default function Home() {
       <Header />
       <Features />
       <WhatWeDo />
-      {/* <HowItWorks /> */}
+      <HowItWorks />
       <Pricing />
       <FAQ />
     </main>
