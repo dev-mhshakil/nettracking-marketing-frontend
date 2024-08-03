@@ -103,7 +103,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="flex md:hidden">
-          <button onClick={toggleMobileMenu} className="p-2">
+          <button onClick={toggleMobileMenu} className="p-2 text-white">
             <AlignJustify />
           </button>
         </div>
