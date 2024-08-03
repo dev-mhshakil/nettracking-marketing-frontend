@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <div className="w-[375px] md:w-[1170px] h-[755px] md:h-[825px] mx-auto">
       <div className="">
-        <h1 className="text-center text-[26px] md:text-[42px] font-bold mb-4">
+        <h1 className="text-center text-[26px] md:text-[42px] font-bold mb-4 text-white">
           Key features
         </h1>
         <div className="w-[288px] md:w-[522px] h-[52px] mx-auto">
@@ -24,7 +24,7 @@ const Features = () => {
             <BookIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Real-Time Email ALerts
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">
@@ -40,7 +40,7 @@ const Features = () => {
             <MonitorIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Monitor Inbound Traffic
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">
@@ -56,7 +56,7 @@ const Features = () => {
             <TrackIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Track Multiple Sites
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">
@@ -72,7 +72,7 @@ const Features = () => {
             <StatisticsIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Aggregate Statistics
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">
@@ -88,7 +88,7 @@ const Features = () => {
             <EditIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Edit Exclude
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">
@@ -104,7 +104,7 @@ const Features = () => {
             <BookIcon />
           </div>
           <div className="w-[160px] md:w-full mt-3 md:mt-6">
-            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2">
+            <h2 className="text-[16px] md:text-[20px] font-semibold mb-2 text-white">
               Easy To Implement
             </h2>
             <div className="w-[160px] md:w-[250px] h-[72px]">

@@ -5,20 +5,22 @@ const Footer = () => {
     <div className="w-[375px] md:w-[1440px] mx-auto mt-10 md:mt-[109px] ">
       <div className="w-[375px] md:w-[1170px] mx-auto flex flex-col md:flex-row gap-10 md:gap-[240px] px-5 py-10">
         <div className="">
-          <h2 className="text-[24px] font-bold">Nettracking</h2>
+          <h2 className="text-[24px] font-bold text-white">Nettracking</h2>
           <p className="w-[209px] h-[72px] text-[14px] text-[#696B76] mt-3">
             We saw our customers confusing us with some of the other companies
             intheindustry
           </p>
           <div className="flex gap-4 mt-5">
-            <FaFacebookSquare size={15} />
-            <FaTwitter size={15} />
-            <FaLinkedin size={15} />
+            <FaFacebookSquare size={15} className="text-white" />
+            <FaTwitter size={15} className="text-white" />
+            <FaLinkedin size={15} className="text-white" />
           </div>
         </div>
         <div className="w-[345px] md:w-[635px] grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-[152px]">
           <div>
-            <h2 className="text-[16px] font-medium mb-[26px]">Product</h2>
+            <h2 className="text-[16px] font-medium mb-[26px] text-white">
+              Product
+            </h2>
             <ul className="flex flex-col gap-3">
               <li className="text-[16px] text-[#696B76]">Product</li>
               <li className="text-[16px] text-[#696B76]">Features</li>
@@ -27,7 +29,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[16px] font-medium mb-[26px]">Service</h2>
+            <h2 className="text-[16px] font-medium mb-[26px] text-white">
+              Service
+            </h2>
             <ul className="flex flex-col gap-3">
               <li className="text-[16px] text-[#696B76]">Blog</li>
               <li className="text-[16px] text-[#696B76]">Road Map</li>
@@ -37,7 +41,9 @@ const Footer = () => {
           </div>
 
           <div className="w-[177px]">
-            <h2 className="text-[16px] font-medium mb-[26px]">Solutions</h2>
+            <h2 className="text-[16px] font-medium mb-[26px] text-white">
+              Solutions
+            </h2>
             <ul className="flex flex-col gap-3">
               <li className="text-[16px] text-[#696B76]">Process Management</li>
               <li className="text-[16px] text-[#696B76]">Request Management</li>

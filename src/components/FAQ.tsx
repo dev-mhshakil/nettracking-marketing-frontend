@@ -2,7 +2,7 @@ const FAQ = () => {
   return (
     <div className="w-[375px] md:w-[1170px] mx-auto mt-10">
       <div>
-        <h1 className="text-[26px] md:text-[42px] font-bold text-center mb-4">
+        <h1 className="text-[26px] md:text-[42px] font-bold text-center mb-4 text-white">
           FAQ
         </h1>
         <p className="text-[12px] md:text-[18px] text-[#808188] text-center mb-12">
@@ -18,7 +18,7 @@ const FAQ = () => {
                 </p>
               </div>
               <div>
-                <h2 className="text-[18px] font-semibold mb-2 ">
+                <h2 className="text-[18px] font-semibold mb-2 text-white">
                   What is Nettracking
                 </h2>
                 <p className="text-[16px] text-[#696B76]">
@@ -34,7 +34,7 @@ const FAQ = () => {
                 </p>
               </div>
               <div>
-                <h2 className="text-[18px] font-semibold mb-2 ">
+                <h2 className="text-[18px] font-semibold mb-2 text-white">
                   Pacage tracking available?
                 </h2>
                 <p className="text-[16px] text-[#696B76]">
@@ -50,7 +50,7 @@ const FAQ = () => {
                 </p>
               </div>
               <div>
-                <h2 className="text-[18px] font-semibold mb-2 ">
+                <h2 className="text-[18px] font-semibold mb-2 text-white">
                   What is the best solution in this platform
                 </h2>
                 <p className="text-[16px] text-[#696B76]">
@@ -66,7 +66,7 @@ const FAQ = () => {
                 </p>
               </div>
               <div>
-                <h2 className="text-[18px] font-semibold mb-2 ">
+                <h2 className="text-[18px] font-semibold mb-2 text-white">
                   Marketing friendly?
                 </h2>
                 <p className="text-[16px] text-[#696B76]">

@@ -25,7 +25,7 @@ const HowItWorks = () => {
   return (
     <div className="w-[375px] md:w-[1440px] mx-auto mt-[80px]">
       <div className="mb-[65px]">
-        <h1 className="text-[26px] md:text-[42px] font-bold text-center">
+        <h1 className="text-[26px] md:text-[42px] font-bold text-center text-white">
           How it works
         </h1>
       </div>
@@ -75,7 +75,7 @@ const HowItWorks = () => {
                 {/* Card */}
                 <div className={`w-full md:w-1/2  p-4 `}>
                   <div className="flex items-center justify-between space-x-2 mb-1">
-                    <div className="font-bold ">{item.title}</div>
+                    <div className="font-bold text-white">{item.title}</div>
                   </div>
                   <div className="text-[16px] text-[#696B76]">{item.desc}</div>
                 </div>

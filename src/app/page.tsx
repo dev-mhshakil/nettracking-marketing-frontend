@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import Header from "@/components/Header";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
+import Testimonials from "@/components/Testimonials";
 import WhatWeDo from "@/components/WhatWeDo";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <WhatWeDo />
       <HowItWorks />
       <Pricing />
+      <Testimonials />
       <FAQ />
     </main>
   );

@@ -5,7 +5,7 @@ const WhatWeDo = () => {
   return (
     <div className="w-[335px] md:w-[1170px] mx-auto mt-0 md:mt-24">
       <div className="w-[335px] md:w-[605px] mx-auto">
-        <h1 className="text-[26px] md:text-[42px] mt-[40px] font-bold text-center">
+        <h1 className="text-[26px] md:text-[42px] mt-[40px] font-bold text-center text-white">
           Creative solutions to expand your business!
         </h1>
         <div className="w-[282px] md:w-[466px] h-[48px] mx-auto mt-2">
@@ -18,21 +18,21 @@ const WhatWeDo = () => {
       <div className="flex flex-col md:flex-row gap-4 mt-[40px] md:mt-24">
         <div className="w-[335px] md:w-[575px] h-[288px] md:h-[539px] px-[20px] py-[30px] md:p-[50px] bg-[#1E2029] rounded-3xl">
           <div className="flex gap-4">
-            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold">
+            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold text-white">
               Founder
             </button>
-            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold">
+            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold text-white">
               Blogger
             </button>
-            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold">
+            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold text-white">
               Marketer
             </button>
-            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold">
+            <button className="px-[10px] md:px-4 py-[7px] md:py-3 bg-[#2A2C34] rounded-md text-[8px] md:text-[14px] font-semibold text-white">
               Agency
             </button>
           </div>
           <div className="mt-[30px] md:mt-24">
-            <h1 className="w-[316px] text-[18px] md:text-[30px] font-semibold">
+            <h1 className="w-[316px] text-[18px] md:text-[30px] font-semibold text-white">
               Track The Results Of Your Work
             </h1>
             <p className="w-[221px] md:w-[380px] text-[10px] md:text-[16px] text-[#696B76] mt-[10px] md:mt-4">
@@ -41,7 +41,7 @@ const WhatWeDo = () => {
               delivered with time and date, etc.
             </p>
             <div className="mt-10">
-              <button className="w-[115px] md:w-[186px] flex items-center bg-[#FF664F] py-2 md:py-3 px-2 md:px-6 rounded-md text-[9px] md:text-[14px] font-semibold">
+              <button className="w-[115px] md:w-[186px] flex items-center bg-[#FF664F] py-2 md:py-3 px-2 md:px-6 rounded-md text-[9px] md:text-[14px] font-semibold text-white">
                 Explore Platform
                 <span>
                   <ArrowRight size={16} />
