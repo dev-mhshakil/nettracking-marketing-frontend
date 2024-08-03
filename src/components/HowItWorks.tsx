@@ -58,7 +58,7 @@ const HowItWorks = () => {
 
                 {/* Timeline Icon (visible only on small screens) */}
                 <div className=" flex md:hidden items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-[#2D2F37] shadow absolute -left-2 md:-left-10 top-20 transform -translate-y-1/2">
-                  <span className="">{item.icon}</span>
+                  <span className="text-white">{item.icon}</span>
                 </div>
 
                 {/* Image */}
